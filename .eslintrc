@@ -1,0 +1,22 @@
+{
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "extends": ["eslint:recommended", "eslint-config-prettier", "plugin:react/recommended"],
+    "rules": {
+      "no-unused-vars": ["error", {}],
+      "react/react-in-jsx-scope": 0,
+      "react/jsx-uses-react": 0
+    },
+    "plugins": [
+      "react"
+    ],
+    "env": {
+      "browser": true
+    },
+    "settings": { "react": { "version" : "18.1.0" }}
+}

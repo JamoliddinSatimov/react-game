@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "baseUrl": ".",
+      "module": "commonjs",
+      "target": "es2020",
+      "moduleResolution": "node",
+      "checkJs": false,
+      "paths": {
+        "@assets/*": ["./src/assets/*"],
+        "@components": ["./src/components/*"]
+      }
+    },
+    "exclude": ["node_modules", "dist", "build"]
+  }
